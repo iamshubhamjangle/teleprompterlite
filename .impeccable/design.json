@@ -1,0 +1,580 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-03T09:03:27.976Z",
+  "title": "Design System: Teleprompter Lite",
+  "extensions": {
+    "colorMeta": {
+      "light-background": {
+        "role": "neutral",
+        "displayName": "Light Background",
+        "tonalRamp": [
+          "oklch(15% 0.00530 106.50)",
+          "oklch(26% 0.00530 106.50)",
+          "oklch(37% 0.00530 106.50)",
+          "oklch(48% 0.00530 106.50)",
+          "oklch(59% 0.00530 106.50)",
+          "oklch(70% 0.00530 106.50)",
+          "oklch(82% 0.00530 106.50)",
+          "oklch(95% 0.00530 106.50)"
+        ]
+      },
+      "light-foreground": {
+        "role": "neutral",
+        "displayName": "Light Foreground",
+        "tonalRamp": [
+          "oklch(15% 0.00905 159.43)",
+          "oklch(26% 0.00905 159.43)",
+          "oklch(37% 0.00905 159.43)",
+          "oklch(48% 0.00905 159.43)",
+          "oklch(59% 0.00905 159.43)",
+          "oklch(70% 0.00905 159.43)",
+          "oklch(82% 0.00905 159.43)",
+          "oklch(95% 0.00905 159.43)"
+        ]
+      },
+      "light-panel": {
+        "role": "neutral",
+        "displayName": "Light Panel",
+        "tonalRamp": [
+          "oklch(15% 0.00264 106.45)",
+          "oklch(26% 0.00264 106.45)",
+          "oklch(37% 0.00264 106.45)",
+          "oklch(48% 0.00264 106.45)",
+          "oklch(59% 0.00264 106.45)",
+          "oklch(70% 0.00264 106.45)",
+          "oklch(82% 0.00264 106.45)",
+          "oklch(95% 0.00264 106.45)"
+        ]
+      },
+      "light-reader": {
+        "role": "neutral",
+        "displayName": "Light Reader",
+        "tonalRamp": [
+          "oklch(15% 0.00000 89.88)",
+          "oklch(26% 0.00000 89.88)",
+          "oklch(37% 0.00000 89.88)",
+          "oklch(48% 0.00000 89.88)",
+          "oklch(59% 0.00000 89.88)",
+          "oklch(70% 0.00000 89.88)",
+          "oklch(82% 0.00000 89.88)",
+          "oklch(95% 0.00000 89.88)"
+        ]
+      },
+      "light-primary": {
+        "role": "primary",
+        "displayName": "Light Primary",
+        "tonalRamp": [
+          "oklch(15% 0.09106 160.63)",
+          "oklch(26% 0.09106 160.63)",
+          "oklch(37% 0.09106 160.63)",
+          "oklch(48% 0.09106 160.63)",
+          "oklch(59% 0.09106 160.63)",
+          "oklch(70% 0.09106 160.63)",
+          "oklch(82% 0.09106 160.63)",
+          "oklch(95% 0.09106 160.63)"
+        ]
+      },
+      "light-primary-foreground": {
+        "role": "neutral",
+        "displayName": "Light Primary Foreground",
+        "tonalRamp": [
+          "oklch(15% 0.00000 89.88)",
+          "oklch(26% 0.00000 89.88)",
+          "oklch(37% 0.00000 89.88)",
+          "oklch(48% 0.00000 89.88)",
+          "oklch(59% 0.00000 89.88)",
+          "oklch(70% 0.00000 89.88)",
+          "oklch(82% 0.00000 89.88)",
+          "oklch(95% 0.00000 89.88)"
+        ]
+      },
+      "light-muted": {
+        "role": "neutral",
+        "displayName": "Light Muted",
+        "tonalRamp": [
+          "oklch(15% 0.00675 115.71)",
+          "oklch(26% 0.00675 115.71)",
+          "oklch(37% 0.00675 115.71)",
+          "oklch(48% 0.00675 115.71)",
+          "oklch(59% 0.00675 115.71)",
+          "oklch(70% 0.00675 115.71)",
+          "oklch(82% 0.00675 115.71)",
+          "oklch(95% 0.00675 115.71)"
+        ]
+      },
+      "light-muted-foreground": {
+        "role": "neutral",
+        "displayName": "Light Muted Foreground",
+        "tonalRamp": [
+          "oklch(15% 0.01385 145.37)",
+          "oklch(26% 0.01385 145.37)",
+          "oklch(37% 0.01385 145.37)",
+          "oklch(48% 0.01385 145.37)",
+          "oklch(59% 0.01385 145.37)",
+          "oklch(70% 0.01385 145.37)",
+          "oklch(82% 0.01385 145.37)",
+          "oklch(95% 0.01385 145.37)"
+        ]
+      },
+      "light-border": {
+        "role": "neutral",
+        "displayName": "Light Border",
+        "tonalRamp": [
+          "oklch(15% 0.00966 119.59)",
+          "oklch(26% 0.00966 119.59)",
+          "oklch(37% 0.00966 119.59)",
+          "oklch(48% 0.00966 119.59)",
+          "oklch(59% 0.00966 119.59)",
+          "oklch(70% 0.00966 119.59)",
+          "oklch(82% 0.00966 119.59)",
+          "oklch(95% 0.00966 119.59)"
+        ]
+      },
+      "dark-background": {
+        "role": "neutral",
+        "displayName": "Dark Background",
+        "tonalRamp": [
+          "oklch(15% 0.00504 173.84)",
+          "oklch(26% 0.00504 173.84)",
+          "oklch(37% 0.00504 173.84)",
+          "oklch(48% 0.00504 173.84)",
+          "oklch(59% 0.00504 173.84)",
+          "oklch(70% 0.00504 173.84)",
+          "oklch(82% 0.00504 173.84)",
+          "oklch(95% 0.00504 173.84)"
+        ]
+      },
+      "dark-foreground": {
+        "role": "neutral",
+        "displayName": "Dark Foreground",
+        "tonalRamp": [
+          "oklch(15% 0.00739 132.42)",
+          "oklch(26% 0.00739 132.42)",
+          "oklch(37% 0.00739 132.42)",
+          "oklch(48% 0.00739 132.42)",
+          "oklch(59% 0.00739 132.42)",
+          "oklch(70% 0.00739 132.42)",
+          "oklch(82% 0.00739 132.42)",
+          "oklch(95% 0.00739 132.42)"
+        ]
+      },
+      "dark-panel": {
+        "role": "neutral",
+        "displayName": "Dark Panel",
+        "tonalRamp": [
+          "oklch(15% 0.00588 156.74)",
+          "oklch(26% 0.00588 156.74)",
+          "oklch(37% 0.00588 156.74)",
+          "oklch(48% 0.00588 156.74)",
+          "oklch(59% 0.00588 156.74)",
+          "oklch(70% 0.00588 156.74)",
+          "oklch(82% 0.00588 156.74)",
+          "oklch(95% 0.00588 156.74)"
+        ]
+      },
+      "dark-reader": {
+        "role": "neutral",
+        "displayName": "Dark Reader",
+        "tonalRamp": [
+          "oklch(15% 0.00596 156.70)",
+          "oklch(26% 0.00596 156.70)",
+          "oklch(37% 0.00596 156.70)",
+          "oklch(48% 0.00596 156.70)",
+          "oklch(59% 0.00596 156.70)",
+          "oklch(70% 0.00596 156.70)",
+          "oklch(82% 0.00596 156.70)",
+          "oklch(95% 0.00596 156.70)"
+        ]
+      },
+      "dark-primary": {
+        "role": "primary",
+        "displayName": "Dark Primary",
+        "tonalRamp": [
+          "oklch(15% 0.09106 160.63)",
+          "oklch(26% 0.09106 160.63)",
+          "oklch(37% 0.09106 160.63)",
+          "oklch(48% 0.09106 160.63)",
+          "oklch(59% 0.09106 160.63)",
+          "oklch(70% 0.09106 160.63)",
+          "oklch(82% 0.09106 160.63)",
+          "oklch(95% 0.09106 160.63)"
+        ]
+      },
+      "dark-primary-foreground": {
+        "role": "neutral",
+        "displayName": "Dark Primary Foreground",
+        "tonalRamp": [
+          "oklch(15% 0.00000 89.88)",
+          "oklch(26% 0.00000 89.88)",
+          "oklch(37% 0.00000 89.88)",
+          "oklch(48% 0.00000 89.88)",
+          "oklch(59% 0.00000 89.88)",
+          "oklch(70% 0.00000 89.88)",
+          "oklch(82% 0.00000 89.88)",
+          "oklch(95% 0.00000 89.88)"
+        ]
+      },
+      "dark-muted": {
+        "role": "neutral",
+        "displayName": "Dark Muted",
+        "tonalRamp": [
+          "oklch(15% 0.01001 151.49)",
+          "oklch(26% 0.01001 151.49)",
+          "oklch(37% 0.01001 151.49)",
+          "oklch(48% 0.01001 151.49)",
+          "oklch(59% 0.01001 151.49)",
+          "oklch(70% 0.01001 151.49)",
+          "oklch(82% 0.01001 151.49)",
+          "oklch(95% 0.01001 151.49)"
+        ]
+      },
+      "dark-muted-foreground": {
+        "role": "neutral",
+        "displayName": "Dark Muted Foreground",
+        "tonalRamp": [
+          "oklch(15% 0.01567 142.21)",
+          "oklch(26% 0.01567 142.21)",
+          "oklch(37% 0.01567 142.21)",
+          "oklch(48% 0.01567 142.21)",
+          "oklch(59% 0.01567 142.21)",
+          "oklch(70% 0.01567 142.21)",
+          "oklch(82% 0.01567 142.21)",
+          "oklch(95% 0.01567 142.21)"
+        ]
+      },
+      "dark-border": {
+        "role": "neutral",
+        "displayName": "Dark Border",
+        "tonalRamp": [
+          "oklch(15% 0.00977 151.55)",
+          "oklch(26% 0.00977 151.55)",
+          "oklch(37% 0.00977 151.55)",
+          "oklch(48% 0.00977 151.55)",
+          "oklch(59% 0.00977 151.55)",
+          "oklch(70% 0.00977 151.55)",
+          "oklch(82% 0.00977 151.55)",
+          "oklch(95% 0.00977 151.55)"
+        ]
+      },
+      "destructive": {
+        "role": "error",
+        "displayName": "Destructive",
+        "tonalRamp": [
+          "oklch(15% 0.16368 23.86)",
+          "oklch(26% 0.16368 23.86)",
+          "oklch(37% 0.16368 23.86)",
+          "oklch(48% 0.16368 23.86)",
+          "oklch(59% 0.16368 23.86)",
+          "oklch(70% 0.16368 23.86)",
+          "oklch(82% 0.16368 23.86)",
+          "oklch(95% 0.16368 23.86)"
+        ]
+      },
+      "light-ring": {
+        "role": "focus",
+        "displayName": "Light Focus Ring",
+        "tonalRamp": [
+          "oklch(15% 0.09106 160.63)",
+          "oklch(26% 0.09106 160.63)",
+          "oklch(37% 0.09106 160.63)",
+          "oklch(48% 0.09106 160.63)",
+          "oklch(59% 0.09106 160.63)",
+          "oklch(70% 0.09106 160.63)",
+          "oklch(82% 0.09106 160.63)",
+          "oklch(95% 0.09106 160.63)"
+        ]
+      },
+      "dark-ring": {
+        "role": "focus",
+        "displayName": "Dark Focus Ring",
+        "tonalRamp": [
+          "oklch(15% 0.00739 132.42)",
+          "oklch(26% 0.00739 132.42)",
+          "oklch(37% 0.00739 132.42)",
+          "oklch(48% 0.00739 132.42)",
+          "oklch(59% 0.00739 132.42)",
+          "oklch(70% 0.00739 132.42)",
+          "oklch(82% 0.00739 132.42)",
+          "oklch(95% 0.00739 132.42)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "reader": {
+        "displayName": "Reader",
+        "purpose": "User-adjustable script; defaults recorded in frontmatter."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Brand and panel sections."
+      },
+      "panel-title": {
+        "displayName": "Panel title",
+        "purpose": "Sidebar headers."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Compact fields and supporting text."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Tabs, status, and interface metadata."
+      },
+      "metadata": {
+        "displayName": "Metadata",
+        "purpose": "Quiet hints and cue indices."
+      },
+      "reader-mono": {
+        "displayName": "Monospaced reader",
+        "purpose": "Optional Geist Mono script."
+      },
+      "reader-serif": {
+        "displayName": "Serif reader",
+        "purpose": "Optional Georgia script."
+      },
+      "brand": {
+        "displayName": "Sidebar brand",
+        "purpose": "Compact left-header identity, 12px semibold with tight tracking."
+      }
+    },
+    "shadows": [
+      {
+        "name": "panel-overlay",
+        "value": "0 12px 36px #0002",
+        "purpose": "Transient sidebar overlays."
+      },
+      {
+        "name": "notice",
+        "value": "0 8px 30px #0002",
+        "purpose": "Status notice."
+      }
+    ],
+    "motion": [
+      {
+        "name": "reveal",
+        "value": "opacity 150ms ease-out",
+        "purpose": "Panel/output-control reveal."
+      },
+      {
+        "name": "cue-focus",
+        "value": "opacity 160ms ease-out",
+        "purpose": "Current cue emphasis."
+      },
+      {
+        "name": "panel-close-delay",
+        "value": "250ms",
+        "purpose": "Moving from rail to overlay; retain focus."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "transition:none; animation:none; scroll-behavior:auto",
+        "purpose": "Respect reduced motion while preserving requested playback."
+      },
+      {
+        "name": "output-geometry-reveal",
+        "value": "opacity 150ms ease-out",
+        "purpose": "Shared output handles reveal on hover/focus; visible on touch."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "compact-desktop",
+        "value": "1150px"
+      },
+      {
+        "name": "overlay-panels",
+        "value": "900px"
+      },
+      {
+        "name": "mobile",
+        "value": "540px"
+      }
+    ],
+    "focus": {
+      "outline": "2px solid var(--ring)",
+      "outlineOffset": "3px",
+      "componentRing": "0 0 0 3px color-mix(in srgb,var(--ring) 50%,transparent)",
+      "purpose": "Separate accessible focus color: green light-theme ring; neutral bright dark-theme ring."
+    },
+    "geometry": {
+      "leftPanel": "240px",
+      "rightPanel": "260px",
+      "collapsedRail": "48px",
+      "marginRange": "0–40% each",
+      "readerHeightRange": "20–100%",
+      "guideRange": "20–65%",
+      "narrowThreshold": "160px",
+      "sidebarHeader": "56px",
+      "sidebarHeaderInset": "12px",
+      "settingsSectionPadding": "14px 16px",
+      "settingsSectionGap": "10px",
+      "settingsSliderRowGap": "6px",
+      "settingsSelectHeight": "30px",
+      "navigation": "Brand in left header; help/theme in right header and bottom of right rail; no navbar",
+      "previewChrome": "No preview header or footer",
+      "centerDesktopPadding": "12px 24px 0",
+      "leftTabs": "Fixed outside panel-scroll",
+      "scriptContent": "Primary edit action then padded words · cues; no title/sample labels",
+      "layoutContent": "Presets, config import/export, local clear",
+      "popupAction": "Adjacent fullscreen in transport only",
+      "handleAlignment": "Actual reading-area width excludes 40px bookmark strip; width grips clamped inside reading area",
+      "heightHandleTop": "min(height%, calc(100% - 11px))",
+      "outputHeightAdjustment": "Starts from displayed height; enables outputClearance",
+      "outputBookmarksDefault": true,
+      "outputClearanceDefault": false,
+      "narrowFallback": "Measured viewport/current margins; direct pointer/key width adjustment starts from displayed 4% fallback and disables fallback",
+      "panelToggleDirection": "Collapsed left rail right-collapse; expanded left header left-collapse; right mirrored",
+      "temporaryPanelToggle": "Desktop temporary reveal hides header toggle; rail pin remains; mobile close visible",
+      "editorToolbarSlot": "min-height:36px",
+      "editorToolbarGap": "2px",
+      "editorToolbarButton": "32px with 17px icon"
+    },
+    "evidence": {
+      "authority": "User-approved code-first camera-monitor direction; current scoped refinement documented from source",
+      "screenshots": [],
+      "previousScreenshots": "Existing .impeccable/review captures predate current refinements and are stale",
+      "qa": "UI QA by user; do not run project for preview QA per AGENTS.md",
+      "shippingRasterAssets": [
+        "src/app/favicon.ico (generated PNG frames from public/logo.svg)"
+      ]
+    },
+    "assets": {
+      "logo": {
+        "path": "public/logo.svg",
+        "source": "Authored Tabler antenna-bars vector; green primary, stroke 1.6",
+        "uses": "21px sidebar brand; 36px loading"
+      },
+      "appIcon": {
+        "path": "src/app/icon.svg",
+        "source": "Copied from public/logo.svg by scripts/generate-icons.mjs"
+      },
+      "favicon": {
+        "path": "src/app/favicon.ico",
+        "source": "PNG frames at 16/32/48px generated from public/logo.svg by scripts/generate-icons.mjs"
+      }
+    }
+  },
+  "components": [
+    {
+      "name": "Primary button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Primary edit action and operating confirmations.",
+      "html": "<button class=\"ds-primary\">Apply</button>",
+      "css": ".ds-primary{display:inline-flex;align-items:center;justify-content:center;gap:6px;height:32px;padding:0 10px;border:1px solid transparent;border-radius:8px;font-size:14px;font-weight:500;cursor:pointer;transition:all 150ms ease-out;font-family:var(--font-geist,Geist),sans-serif;color:var(--foreground);background:var(--primary);color:var(--primary-foreground)}.ds-primary:hover{background:color-mix(in srgb,var(--primary) 80%,transparent)}.ds-primary:focus-visible{outline:2px solid var(--ring);outline-offset:3px;box-shadow:0 0 0 3px color-mix(in srgb,var(--ring) 50%,transparent)}.ds-primary:active{transform:translateY(1px)}.ds-primary:disabled{opacity:.5;pointer-events:none}@media(prefers-reduced-motion:reduce){.ds-primary{transition:none}}"
+    },
+    {
+      "name": "Outline button",
+      "kind": "button",
+      "refersTo": "button-outline",
+      "description": "Secondary workspace actions.",
+      "html": "<button class=\"ds-outline\">Export script</button>",
+      "css": ".ds-outline{display:inline-flex;align-items:center;justify-content:center;gap:6px;height:32px;padding:0 10px;border:1px solid transparent;border-radius:8px;font-size:14px;font-weight:500;cursor:pointer;transition:all 150ms ease-out;font-family:var(--font-geist,Geist),sans-serif;color:var(--foreground);border-color:var(--border);background:var(--background)}.ds-outline:hover{background:var(--muted)}:host-context(.dark) .ds-outline{background:color-mix(in srgb,var(--border) 30%,transparent)}:host-context(.dark) .ds-outline:hover{background:color-mix(in srgb,var(--border) 50%,transparent)}.ds-outline:focus-visible{outline:2px solid var(--ring);outline-offset:3px;box-shadow:0 0 0 3px color-mix(in srgb,var(--ring) 50%,transparent)}.ds-outline:active{transform:translateY(1px)}.ds-outline:disabled{opacity:.5;pointer-events:none}@media(prefers-reduced-motion:reduce){.ds-outline{transition:none}}"
+    },
+    {
+      "name": "Ghost icon button",
+      "kind": "button",
+      "refersTo": "button-ghost",
+      "description": "Compact labeled controls on rails and toolbars.",
+      "html": "<button class=\"ds-ghost\" aria-label=\"Settings\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M4 6h16M4 12h16M4 18h16M8 3v6M16 9v6M10 15v6\"/></svg></button>",
+      "css": ".ds-ghost{display:inline-flex;align-items:center;justify-content:center;gap:6px;height:32px;padding:0 10px;border:1px solid transparent;border-radius:8px;font-size:14px;font-weight:500;cursor:pointer;transition:all 150ms ease-out;font-family:var(--font-geist,Geist),sans-serif;color:var(--foreground);width:36px;height:36px;padding:0;background:transparent}.ds-ghost:hover{background:var(--muted)}:host-context(.dark) .ds-ghost:hover{background:color-mix(in srgb,var(--muted) 50%,transparent)}.ds-ghost:focus-visible{outline:2px solid var(--ring);outline-offset:3px;box-shadow:0 0 0 3px color-mix(in srgb,var(--ring) 50%,transparent)}.ds-ghost:active{transform:translateY(1px)}.ds-ghost:disabled{opacity:.5;pointer-events:none}@media(prefers-reduced-motion:reduce){.ds-ghost{transition:none}}"
+    },
+    {
+      "name": "Destructive button",
+      "kind": "button",
+      "refersTo": "button-destructive",
+      "description": "Local data clearing confirmation.",
+      "html": "<button class=\"ds-destructive\">Clear local data</button>",
+      "css": ".ds-destructive{display:inline-flex;align-items:center;justify-content:center;gap:6px;height:32px;padding:0 10px;border:1px solid transparent;border-radius:8px;font-size:14px;font-weight:500;cursor:pointer;transition:all 150ms ease-out;font-family:var(--font-geist,Geist),sans-serif;color:var(--foreground);color:#c64646;background:color-mix(in srgb,#c64646 10%,transparent)}.ds-destructive:hover{background:color-mix(in srgb,#c64646 20%,transparent)}:host-context(.dark) .ds-destructive{background:color-mix(in srgb,#c64646 20%,transparent)}:host-context(.dark) .ds-destructive:hover{background:color-mix(in srgb,#c64646 30%,transparent)}.ds-destructive:focus-visible{outline:2px solid var(--ring);outline-offset:3px;box-shadow:0 0 0 3px color-mix(in srgb,var(--ring) 50%,transparent)}.ds-destructive:active{transform:translateY(1px)}.ds-destructive:disabled{opacity:.5;pointer-events:none}@media(prefers-reduced-motion:reduce){.ds-destructive{transition:none}}"
+    },
+    {
+      "name": "Text input",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "Compact bookmark labels and editable fields.",
+      "html": "<input class=\"ds-input\" aria-label=\"Script title\" placeholder=\"Script title\" value=\"A clear introduction\">",
+      "css": ".ds-input{font-family:var(--font-geist,Geist),sans-serif;color:var(--foreground);height:32px;padding:4px 10px;border:1px solid var(--border);border-radius:8px;background:transparent;font-size:14px;transition:color 150ms}.ds-input::placeholder{color:var(--muted-foreground)}.ds-input:hover{border-color:var(--muted-foreground)}.ds-input:focus-visible{outline:2px solid var(--ring);outline-offset:3px;border-color:var(--ring);box-shadow:0 0 0 3px color-mix(in srgb,var(--ring) 50%,transparent)}.ds-input:disabled{opacity:.5;background:color-mix(in srgb,var(--border) 50%,transparent)}:host-context(.dark) .ds-input{background:color-mix(in srgb,var(--border) 30%,transparent)}@media(prefers-reduced-motion:reduce){.ds-input{transition:none}}"
+    },
+    {
+      "name": "Panel tabs",
+      "kind": "nav",
+      "refersTo": "panel-tabs",
+      "description": "Fixed Script, Bookmarks, and Layout destinations outside scrolling panel content.",
+      "html": "<nav class=\"ds-tabs\" aria-label=\"Content\"><button class=\"ds-tab\" aria-current=\"page\">Script</button><button class=\"ds-tab\">Bookmarks</button><button class=\"ds-tab\">Layout</button></nav>",
+      "css": ".ds-tabs{flex-shrink:0;display:flex;gap:8px;padding:0 12px;border-bottom:1px solid var(--border);background:var(--panel)}.ds-tab{font-family:var(--font-geist,Geist),sans-serif;color:var(--foreground);font-size:11px;padding:10px 4px;border:0;border-bottom:2px solid transparent;color:var(--muted-foreground);background:transparent;cursor:pointer}.ds-tab[aria-current]{color:var(--foreground);border-bottom-color:var(--primary)}.ds-tab:hover{color:var(--foreground)}.ds-tab:focus-visible{outline:2px solid var(--ring);outline-offset:3px}"
+    },
+    {
+      "name": "Reading surface",
+      "kind": "card",
+      "refersTo": "reader-card",
+      "description": "Uninterrupted reading surface with direct geometry grips and optional empty phone clearance.",
+      "html": "<section class=\"ds-reader\" aria-label=\"Reading surface\"><div class=\"ds-stage\" tabindex=\"0\"><span class=\"ds-guide\"></span><p class=\"ds-script\">Speak naturally.<br>Keep your eyes near the lens.</p><button class=\"ds-width ds-width-left\" aria-label=\"Resize reading width\">⋮</button><button class=\"ds-width ds-width-right\" aria-label=\"Resize reading width\">⋮</button></div><button class=\"ds-height\" aria-label=\"Resize reading height\">⋯</button><div class=\"ds-clearance\">Empty space for your phone</div></section>",
+      "css": ".ds-reader{position:relative;font-family:var(--font-geist,Geist),sans-serif;color:var(--foreground);height:340px;display:flex;flex-direction:column;border:1px solid var(--border);border-radius:12px;overflow:hidden;background:var(--reader)}.ds-stage{height:72%;position:relative;overflow:auto}.ds-stage:focus-visible{outline:2px solid var(--ring);outline-offset:-4px}.ds-script{font-size:36px;line-height:1.6;margin:0 18%;padding-top:45px}.ds-guide{position:absolute;left:0;right:0;top:35%;height:1px;background:color-mix(in srgb,var(--primary) 12%,transparent)}.ds-guide:before{content:'';display:block;width:14px;height:2px;background:var(--primary)}.ds-clearance{flex:1;background:var(--background);display:grid;place-items:center;color:var(--muted-foreground);font-size:12px}.ds-width{position:absolute;top:35%;transform:translateY(-50%);width:20px;height:42px;border:1px solid var(--border);border-radius:5px;background:var(--panel);color:var(--muted-foreground);cursor:ew-resize}.ds-width-left{left:clamp(4px,calc(18% - 28px),calc(100% - 24px))}.ds-width-right{right:clamp(4px,calc(18% - 28px),calc(100% - 24px))}.ds-height{position:absolute;top:min(72%,calc(100% - 11px));left:0;width:100%;height:22px;transform:translateY(-50%);border:0;background:transparent;color:var(--muted-foreground);cursor:ns-resize}.ds-reader :is(.ds-width,.ds-height):hover{color:var(--foreground)}.ds-reader :is(.ds-width,.ds-height):focus-visible{outline:2px solid var(--ring);outline-offset:3px}"
+    },
+    {
+      "name": "Compact settings section",
+      "kind": "custom",
+      "refersTo": "settings-section",
+      "description": "Dense right-sidebar controls retain number entry and slider spacing.",
+      "html": "<section class=\"ds-settings\"><h2 class=\"ds-settings-title\">Typography</h2><label class=\"ds-settings-label\" for=\"ds-font\">Script font</label><select class=\"ds-settings-select\" id=\"ds-font\"><option>Sans serif</option><option>Serif</option><option>Monospace</option></select><div class=\"ds-settings-range\"><label class=\"ds-settings-row\">Font size<input class=\"ds-settings-number\" type=\"number\" min=\"18\" max=\"96\" value=\"36\" aria-label=\"Font size\"></label><input class=\"ds-settings-slider\" type=\"range\" min=\"18\" max=\"96\" value=\"36\" aria-label=\"Font size slider\"></div></section>",
+      "css": ".ds-settings{display:flex;flex-direction:column;gap:10px;padding:14px 16px;border-bottom:1px solid var(--border);background:var(--panel);color:var(--foreground);font-family:var(--font-geist,Geist),sans-serif}.ds-settings-title{margin:0;font-size:12px;font-weight:600}.ds-settings-label{font-size:12px;color:var(--muted-foreground)}.ds-settings-select{height:30px;border:1px solid var(--border);border-radius:6px;background:var(--background);color:var(--foreground);padding:0 10px;font:inherit;font-size:12px}.ds-settings-range{display:flex;flex-direction:column;gap:6px}.ds-settings-row{display:flex;align-items:center;justify-content:space-between;font-size:12px;color:var(--muted-foreground)}.ds-settings-number{width:60px;font:inherit;font-variant-numeric:tabular-nums;text-align:right;color:var(--foreground);background:var(--background);border:1px solid var(--border);border-radius:6px;padding:4px 8px;appearance:textfield}.ds-settings-number::-webkit-inner-spin-button,.ds-settings-number::-webkit-outer-spin-button{appearance:none;margin:0}.ds-settings-slider{width:100%;margin:0;accent-color:var(--primary)}.ds-settings :is(input,select):hover{border-color:var(--muted-foreground)}.ds-settings :is(input,select):focus-visible{outline:2px solid var(--ring);outline-offset:3px}"
+    },
+    {
+      "name": "Selection formatting toolbar",
+      "kind": "custom",
+      "refersTo": "editor-toolbar",
+      "description": "Eight selected-text Markdown actions in a reserved, wrapping slot.",
+      "html": "<div class=\"ds-format-slot\"><div class=\"ds-format\" role=\"toolbar\" aria-label=\"Format selected text\"><button class=\"ds-format-action\" aria-label=\"Bold\" title=\"Bold\"><svg width=\"17\" height=\"17\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M7 5h6a4 4 0 0 1 0 8H7m0-8v14h7a3 3 0 0 0 0-6H7\"/></svg></button><button class=\"ds-format-action\" aria-label=\"Italic\" title=\"Italic\"><svg width=\"17\" height=\"17\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M10 5h8M6 19h8M14 5l-4 14\"/></svg></button><button class=\"ds-format-action\" aria-label=\"Strikethrough\" title=\"Strikethrough\"><svg width=\"17\" height=\"17\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M5 12h14M16 6c-2-3-9-2-9 2 0 2 2 3 5 4m5 3c0 5-9 6-11 2\"/></svg></button><button class=\"ds-format-action\" aria-label=\"Code\" title=\"Code\"><svg width=\"17\" height=\"17\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M8 7l-5 5 5 5M16 7l5 5-5 5M14 4l-4 16\"/></svg></button><button class=\"ds-format-action\" aria-label=\"Heading\" title=\"Heading\"><svg width=\"17\" height=\"17\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M5 5v14M19 5v14M5 12h14\"/></svg></button><button class=\"ds-format-action\" aria-label=\"Quote\" title=\"Quote\"><svg width=\"17\" height=\"17\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M4 11h6V5H4v6m10 0h6V5h-6v6M10 11c0 5-3 8-6 8M20 11c0 5-3 8-6 8\"/></svg></button><button class=\"ds-format-action\" aria-label=\"Bulleted list\" title=\"Bulleted list\"><svg width=\"17\" height=\"17\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M8 6h12M8 12h12M8 18h12M4 6h.01M4 12h.01M4 18h.01\"/></svg></button><button class=\"ds-format-action\" aria-label=\"Numbered list\" title=\"Numbered list\"><svg width=\"17\" height=\"17\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M9 6h11M9 12h11M9 18h11M3 4h1v4M3 11c3-2 3 2 0 3h3M3 17h2l-1 1 1 1H3\"/></svg></button></div></div>",
+      "css": ".ds-format-slot{min-height:36px}.ds-format{display:flex;flex-wrap:wrap;align-items:center;gap:2px}.ds-format-action{display:grid;place-items:center;width:32px;height:32px;padding:0;border:1px solid transparent;border-radius:8px;background:transparent;color:var(--foreground);cursor:pointer}.ds-format-action:hover{background:var(--muted)}.ds-format-action:focus-visible{outline:2px solid var(--ring);outline-offset:3px}.ds-format-action:active{transform:translateY(1px)}"
+    },
+    {
+      "name": "Empty reader action",
+      "kind": "custom",
+      "refersTo": "reader-empty",
+      "description": "Workspace emptiness opens the script editor; output directs edits to workspace.",
+      "html": "<section class=\"ds-empty\"><h2 class=\"ds-empty-title\">Add a script to start reading.</h2><p class=\"ds-empty-hint\">Open Edit script to write or paste your script.</p><button class=\"ds-primary\">Edit script</button></section>",
+      "css": ".ds-primary{display:inline-flex;align-items:center;justify-content:center;gap:6px;height:32px;padding:0 10px;border:1px solid transparent;border-radius:8px;font-size:14px;font-weight:500;cursor:pointer;transition:all 150ms ease-out;font-family:var(--font-geist,Geist),sans-serif;color:var(--foreground);background:var(--primary);color:var(--primary-foreground)}.ds-primary:hover{background:color-mix(in srgb,var(--primary) 80%,transparent)}.ds-primary:focus-visible{outline:2px solid var(--ring);outline-offset:3px;box-shadow:0 0 0 3px color-mix(in srgb,var(--ring) 50%,transparent)}.ds-primary:active{transform:translateY(1px)}.ds-primary:disabled{opacity:.5;pointer-events:none}@media(prefers-reduced-motion:reduce){.ds-primary{transition:none}}.ds-empty{display:flex;align-items:center;justify-content:center;flex-direction:column;text-align:center;padding:30px;gap:12px;font-family:var(--font-geist,Geist),sans-serif;color:var(--foreground);background:var(--reader)}.ds-empty-title{margin:0;font-size:22px;font-weight:500}.ds-empty-hint{margin:0;font-size:13px;line-height:1.8;max-width:32ch;color:var(--muted-foreground)}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Camera Monitor",
+    "overview": "The reader is the central instrument: a quiet, adjustable column of script surrounded by compact controls. Charcoal and warm light neutral surfaces establish a calm working environment. Green marks playback and current state; theme-aware focus rings, outline icons and fine separators keep supporting information precise.\n\nThe approved code-first camera-monitor direction is recorded in WORKSPACE-BRIEF.md. The product's durable visual constraint is reading continuity: type, margins, and height can change around a physical phone while the current script anchor stays in view. Phone clearance is empty reserved space. Decorative imagery does not belong to this direction.",
+    "keyCharacteristics": [
+      "Dominant reading surface with adjustable lens-aligned geometry.",
+      "Compact settings, numeric controls, and outline icons.",
+      "Neutral light and dark surfaces with a single green state accent.",
+      "Panels reveal over the workspace without moving the reading column."
+    ],
+    "rules": [
+      {
+        "name": "The State Accent Rule",
+        "body": "Green carries operating state and interaction. Keep large working surfaces neutral.",
+        "section": "colors"
+      },
+      {
+        "name": "The Reading Cadence Rule",
+        "body": "Preserve the reader's chosen size and line height through Markdown formatting. Keep interface type subordinate to the script.",
+        "section": "typography"
+      },
+      {
+        "name": "The Anchor Rule",
+        "body": "Layout and typography changes preserve the current source-line anchor instead of restarting or visibly jumping the script.",
+        "section": "layout"
+      }
+    ],
+    "dos": [
+      "Do keep the reader dominant and supporting controls compact.",
+      "Do use semantic theme variables so light and dark states remain paired.",
+      "Do preserve script anchors when changing reading geometry.",
+      "Do provide keyboard and touch access for every hover reveal.",
+      "Do keep playback visible when mobile controls wrap."
+    ],
+    "donts": [
+      "Don't fill phone clearance with a camera feed or decorative content.",
+      "Don't use green as a large decorative surface.",
+      "Don't introduce decorative raster imagery into the camera-monitor direction.",
+      "Don't make hidden hover controls the only path to an action.",
+      "Don't add autonomous motion to the quiet reading workspace."
+    ]
+  }
+}
